@@ -7,8 +7,14 @@ public class Main_8393 {
 
 		Scanner scan = new Scanner(System.in);
 		
-		int a = scan.nextInt();
+		int a = scan.nextInt(); //3
+		int sum = 0;
 		
+		for(int i=0; i<=a; i++) {
+			sum = sum + i; 
+		}
+		
+		System.out.println(sum);
 	}
 
 }
